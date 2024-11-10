@@ -1,15 +1,122 @@
-html{
-    min-height: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
 }
-body{
+
+html {
+    height: 800px;
+    width: 100vw;
+}
+
+body {
     position: absolute;
     height: 100%;
     width: 100%;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 }
 
-P{
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px
+}
+
+P {
     text-align: justify;
     text-indent: 30px;
 }
 
+/* Estilo para ajustar o tamanho do card à altura da imagem */
+.img-card {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border-radius: 0;
+    background-color: aliceblue;
+}
+
+.img-index {
+    max-width: 80px;
+    height: auto;
+    align-items: center;
+}
+
+.card-group {
+    width: 100%
+}
+
+.main-middle {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-middle .card-middle {
+    width: 100%;
+}
+
+.footer-container {
+    margin: 0 auto;
+    /* padding: 30px */
+}
+
+.footer-container-top {
+    /* padding: 20px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.footer-container .footer-clientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .footer-clientes img {
+    width: 80px;
+}
+
+.footer-social-logos h3 {
+    display: inline-block;
+}
+
+.footer-social-logos {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 2px; */
+    font-size: 0.1rem
+}
+
+.footer-container .footer-social-logos h3 {
+    display: block;
+}
+
+.footer-container .footer-social-logos img {
+    max-width: 30px;
+    justify-content: space-between;
+}
+
+.footer-container-bottom .div-itens {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.footer-container-bottom .div-itens .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .25rem;
+    text-decoration: none;
+}
+
+.mh-auto {
+    height: 53px
+}
