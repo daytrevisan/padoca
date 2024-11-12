@@ -7,54 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/cadastre-se.css">
     <title>Cadastre-se</title>
-    <link rel="shortcut icon" href="../padoca/Imagens/icons8-bread-50.png">
-    <style>
-        .modal {
-            display: none; 
-            position: fixed; 
-            z-index: 1; 
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgb(0,0,0); 
-            background-color: rgba(0,0,0,0.4); 
-            padding-top: 60px;
-        }
-
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 500px;
-            text-align: center;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .error {
-            color: red;
-        }
-
-        .success {
-            color: green;
-        }
-    </style>
+    <link rel="shortcut icon" href="../padoca/Imagens/images/bread-icon.png">
 </head>
     
 <body>
@@ -62,7 +15,7 @@
     <div class="container">
         
         <div class="form-image">
-            <img src="Imagens/pão.svg">
+            <img src="Imagens/images/pao.svg">
         </div>
         <div class="form">
             <div class="form-header">
