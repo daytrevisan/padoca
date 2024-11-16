@@ -1,5 +1,4 @@
 ﻿![image](https://github.com/user-attachments/assets/9181b352-d39f-4d95-9789-94ddb2e30c73)
-# Padoca
 
 Padoca é um sistema abrangente e especializado projetado exclusivamente para atender às necessidades específicas das padarias. Desenvolvido com base em um outro sistema previamente desenvolvido, o Feira-Fácil, o Padoca representa uma evolução significativa em termos de funcionalidades e usabilidade.
 
