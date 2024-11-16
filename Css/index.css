@@ -250,6 +250,12 @@ P {
     padding-bottom: 10px
 }
 
+.offcanvas-body {
+    position: absolute;
+    top: 300px !important;
+    margin-bottom: 20px;
+}
+
 .main-cards .card-ajuda-text {
     font-size: 12px;
     padding-top: 15px
@@ -292,10 +298,11 @@ P {
 
 .accordion {
     max-height: 80vh;
-    overflow-y: auto;
+    overflow-y: 300px;
 }
 
 .accordion-collapse {
+    overflow: visible;
     position: float;
     top: 500 !important;
     left: 0;

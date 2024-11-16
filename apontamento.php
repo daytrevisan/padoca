@@ -14,7 +14,11 @@
 
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
         <div class="container-fluid">
-        <a class="navbar-brand mb-0 h1" href="index.php">Padoca</a>
+          <a class="navbar-brand mb-1 h1" href="index.php">
+            <div class="img-logo">
+              <img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias">
+            </div>
+          </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="criadores.html">Criadores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="termosdeusos2.html">Termos</a>
+                <a class="nav-link active" aria-current="page" href="termosdeusos.html">Termos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="estrutura.php">Estrutura</a>
@@ -62,43 +66,43 @@
             <form action="cadastro-aponta.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
                 <div class="form-group col-md-3">
-                  <label>Ordem Produção:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_ordem" placeholder="Numero ordem produção" required/>
+                  <label>Ordem de Produção:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_ordem" placeholder="Informe o núm. de ordem da produção" required/>
                 </div>
                  <div class="form-group col-md-3">
                   <label>Operação:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_oper" placeholder="Operação de produção" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_oper" placeholder="Informe a operação de produção" required/>
                 </div>
                 <hr>
                 <div class="form-group col-md-3">
                   <label>Data Inicial:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_data_ini" placeholder="Data inicial" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_data_ini" placeholder="Informe a data inicial" required/>
                 </div>
                 <div class="form-group col-md-3">
                   <label>Hora Inicial:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_hora_ini" placeholder="Hora inicial" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_hora_ini" placeholder="Informe a hora inicial" required/>
                 </div>
                 <hr>
                 <div class="form-group col-md-3">
                   <label>Data Final:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_data_fim" placeholder="Data final" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_data_fim" placeholder="Informe a data final" required/>
                 </div>
                 <div class="form-group col-md-3">
                   <label>Hora Final:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_hora_fim" placeholder="Hora final" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_hora_fim" placeholder="Informe a hora final" required/>
                 </div>
                 <hr>
                 <div class="form-group col-md-3">
-                  <label>Qtde.Boas:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_boas" placeholder="Quantidade boas" required/>
+                  <label>Qtde. de Bons Itens:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_boas" placeholder="Informe a quantidade de bons itens" required/>
                 </div>
                 <div class="form-group col-md-3">
-                  <label>Qtde.Refugo:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_refugo" placeholder="Quantidade refugo" required/>
+                  <label>Qtde. de Refugo:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_refugo" placeholder="Informe a quantidade de refugo" required/>
                 </div>
                 <div class="form-group col-md-3">
-                  <label>Qtde.Sucata:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_sucata" placeholder="Quantidade sucata" required/>
+                  <label>Qtde. de Sucata:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_sucata" placeholder="Informe a quantidade de sucata" required/>
                 </div>
                   <hr>
                   <div class="row">

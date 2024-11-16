@@ -6,7 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
-    <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
+    <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
       </head>
@@ -14,7 +14,11 @@
 
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
         <div class="container-fluid">
-        <a class="navbar-brand mb-0 h1" href="index.php">Padoca</a>
+          <a class="navbar-brand mb-1 h1" href="index.php">
+            <div class="img-logo">
+              <img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias">
+            </div>
+          </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,8 +66,8 @@
             <form action="cadastro-ordem.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
                 <div class="form-group col-md-3">
-                  <label>Ordem Produção:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_ordem" placeholder="Numero ordem produção" required/>
+                  <label>Ordem da Produção:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_ordem" placeholder="Informe o núm. ordem da produção" required/>
                 </div>
                 <div class="form-group col-md-2">
                     <label>Situação:</label>
@@ -86,39 +90,39 @@
                   <hr>
                  <div class="form-group col-md-3">
                   <label>Produto:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_prod" placeholder="Codigo do produto" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_prod" placeholder="Informe o código do produto" required/>
                 </div>
                 <div class="form-group col-md-3">
                   <label>Item Pai:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_pai" placeholder="Informe item pai" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_pai" placeholder="Informe o item pai" required/>
                 </div>
                 <hr>
                 <div class="form-group col-md-3">
                   <label>Data Entrega:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_entrega" placeholder="Data da entrega" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_entrega" placeholder="Informe a data de entrega" required/>
                 </div>
                 <div class="form-group col-md-3">
                   <label>Data Liberação:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_libera" placeholder="Data da liberação" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_libera" placeholder="Informe a data de liberação" required/>
                 </div>
                 <div class="form-group col-md-3">
-                  <label>Qtde.Planejda:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_planejada" placeholder="Qtde. planejada" required/>
+                  <label>Qtde. Planejada:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_planejada" placeholder="Informe a quantidade planejada" required/>
                 </div>
                 <div class="form-group col-md-3">
                   <label>Roteiro:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_roteiro" placeholder="Informe roteiro" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_roteiro" placeholder="Informe o roteiro" required/>
                 </div>
                 <hr>
                 <div class="form-group col-md-2">
-                    <label>Baixa Comp.:</label>
+                    <label>Baixa Componente:</label>
                     <select  name="c_bx_comp" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Baixa componente" required>
                       <option value="Sim">Sim</option>
                       <option value="Não">Não</option>
                     </select>
                   </div>
                   <div class="form-group col-md-2">
-                    <label>Aponta Oper.:</label>
+                    <label>Aponta Operação:</label>
                     <select  name="c_apon_oper" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Aponta operação" required>
                       <option value="Sim">Sim</option>
                       <option value="Não">Não</option>

@@ -14,10 +14,14 @@
 
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
         <div class="container-fluid">
-        <a class="navbar-brand mb-0 h1" href="index.php">Padoca</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+          <a class="navbar-brand mb-1 h1" href="index.php">
+                <div class="img-logo">
+                  <img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias">
+              </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -26,7 +30,7 @@
                 <a class="nav-link active" aria-current="page" href="criadores.html">Criadores</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="termosdeusos2.html">Termos</a>
+                <a class="nav-link active" aria-current="page" href="termosdeusos.html">Termos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="local-produto.php">Local Produto</a>

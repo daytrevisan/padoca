@@ -39,8 +39,8 @@
 
                 </div>
 
-                <div class="continue-button btn btn-outline-success">
-                    <button class="btn btn-success" type="submit">Continuar</button>
+                <div class="continue-button">
+                    <button class="btn btn-outline-success" type="submit">Continuar</button>
                 </div>
                 <br>
                 <div class="form-check">

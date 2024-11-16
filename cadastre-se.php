@@ -27,33 +27,33 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label for="nome">Nome</label>
-                        <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                        <input id="nome" class="input-field" type="text" name="nome" placeholder="Digite seu nome" required>
                     </div>
 
                     <div class="input-box">
                         <label for="cpf">CPF</label>
-                        <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                        <input id="cpf" class="input-field" type="text" name="cpf" placeholder="Digite seu CPF" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
                         <small>Formato: 000.000.000-00</small>
                     </div>
 
                     <div class="input-box">
                         <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        <input id="email" class="input-field" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
 
                     <div class="input-box">
                         <label for="senha">Senha</label>
-                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                        <input id="senha" class="input-field" type="password" name="senha" placeholder="Digite sua senha" required>
                     </div>
 
                     <div class="input-box">
                         <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        <input id="confirmPassword" class="input-field" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
                     </div>
                 </div>
 
                 <div class="continue-button">
-                    <button type="submit">Continuar</button>
+                    <button class="btn btn-outline-success" type="submit">Continuar</button>
                 </div>
                 <br> 
                 <div class="form-check">
@@ -65,7 +65,7 @@
                     <div class="invalid-feedback"></div>
                 </div>
 
-                <div class="login btn btn-outline-success"> 
+                <div class="login"> 
                     <h4>Já tem uma conta?
                         <a href="login.php">Entrar</a>
                     </h4>

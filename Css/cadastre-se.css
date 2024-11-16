@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     --bg-light-white: #FEFEFE;
-    --bg-light-orange: #FACA66
+    --bg-light-orange: #FACA66;
+    --success-button-bootstrap: #198754;
+    --sucess-btn-fundo-bootstrap: #146c43;
 }
 
 body {
@@ -48,6 +50,10 @@ body {
     align-items: center;
     background-color: #fff;
     padding: 0 4rem 1rem;
+}
+
+.form .form-check, .login {
+    font-size: 14px;
 }
 
 .form-img {
@@ -98,10 +104,16 @@ body {
     border-radius: 10px;
 }
 
+.form-header .title h1 {
+    font-size: 26px;
+}
+
 .input-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-sizing: border-box;
+    height: 260px;
 }
 
 .input-box {
@@ -115,22 +127,49 @@ body {
     padding: 0.75rem 1rem;
     width: 220px;
     box-sizing: border-box;
+    height: 37px;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
     font-size: 0.8rem;
 }
-/* 
+
 #nome {
-    width: 450px;
-} */
+    width: 500px;
+}
 
 .input-box input:hover {
     background-color: #eeeeee75;
 }
 
-.input-box input:focus-visible {
-    /* outline: 1px solid #6c63ff; */
+.btn-outline-success {
+    margin: .5rem 0;
+    height: 39;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--success-button-bootstrap);
+    border: 1px solid var(--success-button-bootstrap) !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    color: var(--bg-light-white);
+    background-color: var(--success-button-bootstrap);
+    border-color: var(--success-button-bootstrap);
+}
+
+.btn-outline-success:focus, .btn-outline-success.focus {
+    color: #fff;
+    background-color: var(--success-button-bootstrap);
+    border-color: var(--success-button-bootstrap);
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+}
+
+.btn-outline-success:active, .btn-outline-success.active,
+.show > .btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--success-button-bootstrap);
+    border-color: var(--sucess-button-bootstrap);
 }
 
 .input-box label,
@@ -148,14 +187,9 @@ body {
     width: 100%;
     padding: .5rem;
     border: none;
-    /* background-color: #6c63ff; */
     padding: 0.75rem;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.continue-button button:hover {
-    /* background-color: #6b63fff1; */
 }
 
 .continue-button button a {
@@ -213,6 +247,14 @@ body {
 
 .form-check {
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    #nome {
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 1330px) {

@@ -27,13 +27,9 @@
                             <h6 class="nav-item slogan">
                                 O sistema da sua padaria em boas mãos
                             </h6>
-                            <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
                             <h6 class="nav-item termos">
-                                <!-- <li class="nav-item termos"> -->
                                     <a class="nav-link active" aria-current="page" href="termosdeusos.html">Acesse nossos termos</a>
-                                <!-- </li> -->
                             </h6>    
-                            <!-- </ul> -->
                         </div>    
                     </div>
                     
@@ -57,7 +53,7 @@
                 </div>
             </nav>
 
-            <!--Aquela mensagem de login que aparece-->
+            <!--Mensagem de login que aparece-->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
