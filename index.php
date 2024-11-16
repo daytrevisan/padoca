@@ -7,7 +7,7 @@
         <title>Padoca</title>
         <link rel="stylesheet" href="Css/reset.css">
         <link rel="stylesheet" href="Css/index.css">
-        <link rel="shortcut icon" href="../padoca/Imagens/bread-icon.png">
+        <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         
     </head>
@@ -89,9 +89,18 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p class="modal-dialog">Agora nós temos a área de suporte ao usuário</p>
-                            <p class="modal-dialog">Você pode conferir quem são os criadores na aba Criadores</p>
-                            <p class="modal-dialog">Faça seu login ou cadastro para conferir suas informações</p>
+                            <div class="notifications-list">
+                                <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                                <p class="modal-dialog">Agora nós temos a área de suporte ao usuário</p>
+                            </div>
+                            <div class="notifications-list">
+                                <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                                <p class="modal-dialog">Você pode conferir quem são nossos <a href="criadores.html" class="links-modal enable-pointer">criadores</a> e também nossos <a href="colaboradores.html" class="links-modal enable-pointer">colaboradores</a></p>
+                            </div>
+                            <div class="notifications-list">
+                                <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                                <p class="modal-dialog">Faça seu <a href="login.php" class="links-modal enable-pointer">login</a> ou <a href="cadastre-se.html" class="links-modal enable-pointer">cadastro</a> para conferir suas informações</p>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <!--Fundo onde tá os botões no outro-->
@@ -122,7 +131,7 @@
                                         <h4 class="card-title">Facilidade</h5>
                                     </div>
                                     <p class="card-text">Gerencie o estoque de sua padaria com muito mais facilidade e assertividade com o sistema de gerenciamento Padoca. Faça já o seu cadastro e conheça nosso sistema.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Interface intuitiva e sistema sempre disponível</small></p>
+                                    <p class="card-text"><img class="img-card" src="Imagens/icons/icon-check.svg"><small class="text-body-secondary">Interface intuitiva e sistema sempre disponível</small></p>
                                 </div>
                             </div>
                             <div class="card border-success mb-3"> <!--Card 2-->
@@ -132,7 +141,7 @@
                                         <h4 class="card-title">Confiança</h5>
                                     </div>
                                     <p class="card-text">Sistema desenvolvido para manter suas informações com segurança e confidencialidade gerando ainda mais confiança aos nossos clientes.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Confiabilidade para seus dados de estoque</small></p>
+                                    <p class="card-text"><img class="img-card" src="Imagens/icons/icon-check.svg"><small class="text-body-secondary">Confiabilidade para seus dados de estoque</small></p>
                                 </div>
                             </div>
                             <div class="card border-success mb-3"> <!--Card 3-->
@@ -142,7 +151,7 @@
                                         <h4 class="card-title">Velocidade</h5>
                                     </div>
                                     <p class="card-text">Nosso sistema garante o melhor desempenho acompanhando o seu crescimento de perto, sempre eficaz e rápido para poder seu gerenciamento do dia-a-dia.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Melhor desempenho para seus processos</small></p>
+                                    <p class="card-text"><img class="img-card" src="Imagens/icons/icon-check.svg"><small class="text-body-secondary">Melhor desempenho para seus processos</small></p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +178,7 @@
 
                         <div class="main-cards">
                             <section class="ajuda">
-                                <div class="card-ajuda" style="width: 96%;"> <!--Area de destaques-->
+                                <div class="card-ajuda" style="width: 96%;"> <!--Área de destaques-->
                                     <div class="ajuda-title">
                                         <h3 class="card-title">Precisa de ajuda?</h3>
                                     </div>

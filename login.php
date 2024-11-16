@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/login.css">
     <title>Entre na Padoca</title>
-    <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
+    <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
 </head>
 
 <body>
@@ -19,7 +19,10 @@
         </div>
         <div class="form">
             <div class="form-header">
-                <div class="title">
+                <div class="form-img">
+                    <img src="Imagens/logos/logo_padoca.png">
+                </div>
+                <div class="form-title">
                     <h1>Entre na Padoca</h1>
                 </div>
             </div>

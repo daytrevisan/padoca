@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/cadastre-se.css">
     <title>Cadastre-se</title>
-    <link rel="shortcut icon" href="../padoca/Imagens/images/bread-icon.png">
+    <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
 </head>
     
 <body>
 
     <div class="container">
         
-        <div class="form-image">
-            <img src="Imagens/images/pao.svg">
-        </div>
         <div class="form">
             <div class="form-header">
+            <div class="form-img">
+                    <img src="Imagens/logos/logo_padoca.png">
+                </div>
                 <div class="title">
                     <h1>Cadastre-se na Padoca</h1>
                 </div>

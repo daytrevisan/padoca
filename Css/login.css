@@ -10,7 +10,7 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,19 +86,6 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
-.form-image {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #4554df09;
-    padding: 1rem;
-}
-
-.form-image img {
-    width: 31rem;
-}
-
 .form {
     width: 50%;
     display: flex;
@@ -106,7 +93,20 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 3rem;
+    padding: 5rem;
+}
+
+/* .form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4554df09;
+    padding: 1rem;
+} */
+
+.form-image img {
+    width: 31rem;
 }
 
 .form-header {
@@ -115,6 +115,10 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+}
+
+.form-header .form-img img {
+    margin-right: 3px
 }
 
 .login{
