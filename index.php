@@ -164,7 +164,7 @@
 
                         <div class="main-cards">
                             <section class="destaques">
-                                <div class="card-destaques"><!--Area de destaques-->
+                                <div class="card-destaques"><!--Área de destaques-->
                                     <div class="destaques-title">
                                         <h3 class="card-title">Destaques</h3>
                                     </div>

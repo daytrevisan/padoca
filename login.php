@@ -14,9 +14,6 @@
 
     <div class="container">
 
-        <div class="form-image">
-            <img src="Imagens/images/pao.svg">
-        </div>
         <div class="form">
             <div class="form-header">
                 <div class="form-img">
@@ -42,7 +39,7 @@
 
                 </div>
 
-                <div class="continue-button btn btn-success">
+                <div class="continue-button btn btn-outline-success">
                     <button class="btn btn-success" type="submit">Continuar</button>
                 </div>
                 <br>
@@ -50,7 +47,7 @@
                     <input type="checkbox" value="" id="invalidCheck" required>
                     <label for="invalidCheck">
                         Concordar com os 
-                        <a href="termosdeusos.html">termos de usos</a>
+                        <a href="termosdeusos.html">Termos de Usos</a>
                     </label>
                     <div class="invalid-feedback">
                     </div>

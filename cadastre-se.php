@@ -16,7 +16,7 @@
         
         <div class="form">
             <div class="form-header">
-            <div class="form-img">
+                <div class="form-img">
                     <img src="Imagens/logos/logo_padoca.png">
                 </div>
                 <div class="title">
@@ -31,14 +31,14 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-                    </div>
-
-                    <div class="input-box">
                         <label for="cpf">CPF</label>
                         <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
                         <small>Formato: 000.000.000-00</small>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
 
                     <div class="input-box">
@@ -59,13 +59,13 @@
                 <div class="form-check">
                     <input type="checkbox" value="" id="invalidCheck" required>
                     <label for="invalidCheck">
-                      concorda com os 
-                      <a href="termosdeusos.html">termos de usos</a>
+                      Concordar com os 
+                      <a href="termosdeusos.html">Termos de Usos</a>
                     </label>
                     <div class="invalid-feedback"></div>
                 </div>
 
-                <div class="login"> 
+                <div class="login btn btn-outline-success"> 
                     <h4>Já tem uma conta?
                         <a href="login.php">Entrar</a>
                     </h4>
